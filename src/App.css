@@ -1,0 +1,256 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+.App {
+  text-align: center;
+  background: #F0F6FE;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: transparent;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+p{
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+}
+h1{
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 118.5%;
+}
+
+h2{
+color: #95B2D8;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 118.5%; 
+padding-top: 50px;
+}
+h4{
+color: var(--Gray-2, #4F4F4F);
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+margin-top: -40px;
+}
+.HeaderTitle{
+background-image: url(/Users/macbookpro/my-app/src/img/upperbg.png);
+width: 100%;
+height: 900px;
+}
+.phone{
+color: #2F80ED;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+}
+.About{
+  background-image: url(/Users/macbookpro/my-app/src/img/aboutbg.png);
+  background-color: #F0F6FE;
+  padding-bottom: 50px;
+}
+
+h1{
+font-family: SF Pro Display;
+font-size: 67px;
+font-weight: 900;
+line-height: 79px;
+letter-spacing: 0em;
+text-align: left;
+}
+p{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu li {
+margin-right: 50px;
+color: #FFFFFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.workerimg{
+width: 803px;
+height: 436px;
+flex-shrink: 0;
+}
+
+.menu li a:hover {
+  color: rgb(0, 0, 244);
+}
+
+.TitleContent{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -15%;
+}
+
+.workercards{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+}
+input{
+  width: 470px;
+  height: 48px;
+  border-radius: 6px;
+  border: 0 none;
+  margin-bottom: 12px;
+  color: var(--Gray-2, #4F4F4F);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 16px;
+}
+.message{
+  height: 67px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.submitbtn{
+  width: 160px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  background: var(--Yellow, #F2C94C);
+  color: var(--Gray-2, #4F4F4F);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+}
+.helpme{
+  width: 160px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  border-radius: 40px;
+  background: #F0F6FE;
+  color: #95B2D8;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+}
+.FormBlock{
+  background-color: #F0F6FE;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+}
+.FormRight{
+  display: flex;
+  background-image: url(/Users/macbookpro/my-app/src/img/lowerleftbg.png);
+  width: 801px;
+  justify-content: right;
+  align-items: center;
+}
+.Help{
+margin-right: 50px;
+}
+.footer{
+  height: 80px;
+  width: 100%;
+  background-color: #22426D;
+}
+.BlockTitle{
+text-align: center;
+margin-bottom: 50px;
+}
+.AboutContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.AboutRight{
+  display: flex;
+  flex-direction: row;
+}
+.HelpmeTransparent{
+color: var(--Yellow, #F2C94C);
+text-align: right;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+border: none;
+background: transparent;
+margin-left: 30px;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+}
+.leftcolumn{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.rightcolumn{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1024px) {}

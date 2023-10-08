@@ -1,0 +1,9 @@
+.abouttext{
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    max-width: 330px;
+}
